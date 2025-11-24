@@ -1,0 +1,31 @@
+[project]
+name = "restate-pyannote-audio"
+version = "0.0.0"
+description = "Restate service for Pyannote Audio"
+readme = "README.md"
+authors = [
+    { name = "Mark Sagi-Kazar", email = "mark.sagikazar@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pyannote-audio>=4.0.2",
+    "restate-sdk[serde]>=0.12.0",
+    "torch>=2.8.0",
+    "torchaudio>=2.8.0",
+]
+
+[project.optional-dependencies]
+app = [
+    "granian[pname,reload]>=2.5.7",
+    "pydantic-settings>=2.12.0",
+    "pydantic-obstore",
+    "workstate[obstore,fsspec]",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.23,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+pydantic-obstore = { git = "https://github.com/sagikazarmark/pydantic-obstore", rev = "v0.0.3" }
+workstate = { git = "https://github.com/sagikazarmark/workstate", rev = "v0.0.3" }
