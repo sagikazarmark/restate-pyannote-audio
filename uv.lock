@@ -2105,7 +2105,7 @@ wheels = [
 
 [[package]]
 name = "pyannote-audio"
-version = "4.0.2"
+version = "4.0.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asteroid-filterbanks" },
@@ -2131,9 +2131,9 @@ dependencies = [
     { name = "torchcodec" },
     { name = "torchmetrics" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e8/a8/1f5e5b2226bb21d8e47ee8c700a5c59d4ed45d3df5347f1945628da6a936/pyannote_audio-4.0.2.tar.gz", hash = "sha256:7a45aff2368b35476a6bd8482f8592c2defd0c3297f79765ed9becb1a2beb382", size = 13867589, upload-time = "2025-11-19T20:45:23.325Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/41/ee/ce292efdb0d0637b8adc1fbb5834f9f1e5d5ca574f1ed943b9d4f8927196/pyannote_audio-4.0.3.tar.gz", hash = "sha256:1e3b81075a151c64db82a0c59c6161f082bd34d1fdcfe362573aee8a364d4c7d", size = 13868614, upload-time = "2025-12-07T06:44:15.641Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2a/a0/0736374720d339b3920f0593479b57559c97fae2d59f5aab66e85dd60a82/pyannote_audio-4.0.2-py3-none-any.whl", hash = "sha256:896123f3d1186f1253eeaf2ac8ea7d2a4d51110f9eb105f03e426d6c83434362", size = 892550, upload-time = "2025-11-19T20:45:21.325Z" },
+    { url = "https://files.pythonhosted.org/packages/61/91/4d383a9c52faba05fd4b046b336b257f03a763bba1cb4be5fa1ea5b36644/pyannote_audio-4.0.3-py3-none-any.whl", hash = "sha256:144adc41d419a44ad92119bc13a84583c78fca92e002346f55b60515802b54fe", size = 892863, upload-time = "2025-12-07T06:44:17.514Z" },
 ]
 
 [[package]]
@@ -2152,16 +2152,16 @@ wheels = [
 
 [[package]]
 name = "pyannote-database"
-version = "6.1.0"
+version = "6.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pandas" },
     { name = "pyannote-core" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a0/de/c7bb86067b80ca773c4b51c38adb770dbb79ca7c6c621d9585763a1b90db/pyannote_database-6.1.0.tar.gz", hash = "sha256:e4df4fbbae1318bf38c5cefa4522dbec599c5665581bd60aee74059c41df4128", size = 112201, upload-time = "2025-09-19T09:19:48.587Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/65/45/6210274c187cc457e854be8b56c6819fa14376f27e7e2b6021b2aa02449a/pyannote_database-6.1.1.tar.gz", hash = "sha256:bbe76da738257a9e64061123d9694ad7e949c4f171d91a9269606d873528cd10", size = 112225, upload-time = "2025-12-07T06:33:10.296Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2c/c1/3ed18cc72325987b20ebfa9295143aa22d6dc8cd3b969ddaef34d1a7b5c4/pyannote_database-6.1.0-py3-none-any.whl", hash = "sha256:7703319e87c64b063b157dff5468c44cbcade930e126d3ac810a78d184477cc2", size = 53738, upload-time = "2025-09-19T09:19:47.28Z" },
+    { url = "https://files.pythonhosted.org/packages/04/bf/6a6f5abaa4d9f803f34c9883ef5e316624eac6be0eaa87720216be9bba12/pyannote_database-6.1.1-py3-none-any.whl", hash = "sha256:36460c70ce9f50ff25c9ea365bc83ad625bb6b2494deccf6bd3fc750686ae684", size = 53735, upload-time = "2025-12-07T06:33:11.578Z" },
 ]
 
 [[package]]
